@@ -1,0 +1,12 @@
+.headerSection {
+  margin-top: 3rem;
+}
+.startedButton {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  background-color: hsl(180, 66%, 49%);
+  font: bold 18px sans-serif;
+}

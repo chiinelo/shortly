@@ -1,0 +1,34 @@
+.footer {
+  background-color: hsl(260, 8%, 14%);
+  color: #fff;
+  padding: 5% 10%;
+
+}
+
+.footerLogo {
+  filter: invert(100%) brightness(2000);
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.list,
+.listSocials {
+  list-style-type: none;
+  padding-left: 0;
+}
+.headings {
+  font-size: 20px;
+  font-weight: 900;
+  font-style: bolder;
+}
+.listItem {
+  font-size: 15px;
+  margin: 12px 0;
+  color: hsl(0, 0%, 75%);
+  cursor: pointer;
+}
+.socials {
+  display: flex;
+  gap: 10px;justify-content: center;
+  padding: 2rem;
+}

@@ -1,0 +1,6 @@
+.boostLinks {
+  background: url(../images/bg-boost-mobile.svg) no-repeat;
+  padding: 5rem 0 2rem;
+  background-size: cover;
+  background-color: var(--Dark-Violet);
+}

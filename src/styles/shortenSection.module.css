@@ -1,0 +1,32 @@
+.shortenSection {
+  background: url(../images/bg-shorten-mobile.svg) no-repeat;
+  padding: 2rem 0;
+  background-size: cover;
+  background-color: var(--Dark-Violet);
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+
+  /* top: 60px;
+  position: relative; */
+}
+.shortenInput {
+  width: 80%;
+  padding: 3%;
+  border-radius: 5px;
+  border: none;
+}
+.shortenInput::placeholder {
+  padding: 3%;
+  font-weight: 500;
+}
+.shortenButton {
+  width: 80%;
+  padding: 3%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: hsl(180, 66%, 49%);
+  font: bold 18px sans-serif;
+  margin-top: 3%;
+}
