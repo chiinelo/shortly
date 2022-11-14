@@ -3,8 +3,8 @@
 }
 .App {
   text-align: center;
-  margin: 5%;
-  width: 90%;
+  width: 100%;
+  position: relative;
 }
 
 :root {

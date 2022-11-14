@@ -4,11 +4,10 @@
   background-size: cover;
   background-color: var(--Dark-Violet);
   border-radius: 8px;
-  width: 100%;
-  height: auto;
-
-  /* top: 60px;
-  position: relative; */
+  width: 80%;
+  margin: 3rem;
+  position: absolute;
+  top: 21%;
 }
 .shortenInput {
   width: 80%;

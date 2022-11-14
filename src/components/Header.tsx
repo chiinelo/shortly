@@ -4,7 +4,7 @@ import styles from "../styles/header.module.css"
 
 const Header = () => {
   return (
-    <div>
+    <div className={`${styles.header}`}>
       <img src={illustration} alt="" width="100%" className="illustration" />
       <div className={`${styles.headerSection}`}>
         <p className={`fs-1 fw-bolder`}>More than just shorter links</p>
