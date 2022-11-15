@@ -2,7 +2,6 @@
   background-color: hsl(260, 8%, 14%);
   color: #fff;
   padding: 5% 10%;
-
 }
 
 .footerLogo {
@@ -29,6 +28,26 @@
 }
 .socials {
   display: flex;
-  gap: 10px;justify-content: center;
+  gap: 10px;
+  justify-content: center;
   padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .lists {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .footerLogo {
+    /* width: 20%; */
+    height: 10%;
+  }
+  .socials{
+    padding-top: 0;
+  }
 }

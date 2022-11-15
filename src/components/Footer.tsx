@@ -11,6 +11,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.footerContainer}>
         <img src={logo} alt="logo" className={styles.footerLogo} />
+        
         <div className={styles.lists}>
           <ul className={styles.list}>
             <p className={`${styles.headings}`}>Features</p>

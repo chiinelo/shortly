@@ -5,13 +5,12 @@ const ShortenSection = () => {
   return (
     <div>
       <div className={`${styles.shortenSection}`}>
-        <form action="/App">
+        <form action="/App" className={`${styles.shortenForm}`}>
           <input
             type="text"
             className={`${styles.shortenInput}`}
             placeholder="Shorten a link here..."
-          />{" "}
-          <br />
+          />
           <button className={`${styles.shortenButton}`}>Shorten it!</button>
         </form>
       </div>

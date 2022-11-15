@@ -1,3 +1,6 @@
+.advanceText {
+  padding-top: 20%;
+}
 .advanceBodyText {
   font-size: 18px;
   line-height: 29px;
@@ -5,12 +8,11 @@
 }
 .cardSection {
   background: var(--gray);
-  padding-top: 40%;
+  padding-top: 20%;
 }
 .cards {
   display: flex;
   flex-direction: column;
-  /* gap: 7rem; */
   align-items: center;
   padding-bottom: 5rem;
 }
@@ -31,7 +33,77 @@
   width: 80px !important;
   height: 80px;
 }
-.bgLine{
+.bgLine {
   border: 6px solid var(--buttonBgColor);
-  height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+@media (min-width: 576px) {
+  .cardSection {
+    padding-top: 20%;
+  }
+}
+@media (min-width: 768px) {
+  .brandedCard {
+    padding: 4%;
+  }
+}
+@media (min-width: 992px) {
+  .brandedCard {
+    width: 23rem;
+  }
+  .advanceText {
+  padding: 10%;
+
+}
+}
+@media (min-width: 992px) {
+  .cardSection {
+    padding-top: 5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .advanceText {
+    padding-top: 7%;
+    padding: 10% 35% 0;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 25rem;
+    position: relative;
+    margin-left: 4rem;
+  }
+  .brandedCard{
+    position: absolute;
+    top: 20%;
+    left: 5rem;
+  }
+  .brandedCard1 {
+    margin-top: 10%;
+    position: absolute;
+    left: 30rem;
+    top: 10%;
+
+
+  }
+  .brandedCard2 {
+    margin-top: 19%;
+    position: absolute;
+    left: 55rem;
+    top: 1%;
+
+
+  }
+  .bgLine {
+    border: 6px solid var(--buttonBgColor);
+    height: 10px;
+    width: 70%;
+    margin-top: 25%;
+    /* display: flex; */
+  }
 }

@@ -1,5 +1,5 @@
-.header{
-  margin-bottom: 30%;
+.header {
+  margin-bottom: 20%;
   padding: 5%;
 }
 .headerSection {
@@ -14,3 +14,45 @@
   background-color: hsl(180, 66%, 49%);
   font: bold 18px sans-serif;
 }
+.headerText{
+  font-size: 40px;
+}
+
+@media (min-width: 992px) {
+  .imgTextWrap {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5rem;
+  }
+  .headerSection {
+    width: 100%;
+    text-align: left;
+  }
+  .imageSection {
+    width: 100%;
+  }
+  .header {
+  margin-bottom: 5%;
+
+}
+.headerText{
+  font-size: 58px;
+
+}
+.headerSubText{
+  text-align: start;
+  color: grey;
+
+}
+}
+@media (min-width: 1200px) { 
+  .headerText{
+  font-size: 60px;
+
+}
+/* .headerSubText{
+  text-align: start;
+  color: grey;
+
+} */
+ }

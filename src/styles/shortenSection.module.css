@@ -7,7 +7,8 @@
   width: 80%;
   margin: 3rem;
   position: absolute;
-  top: 21%;
+  top: 25%;
+  /* right: 15px; */
 }
 .shortenInput {
   width: 80%;
@@ -28,4 +29,55 @@
   background-color: hsl(180, 66%, 49%);
   font: bold 18px sans-serif;
   margin-top: 3%;
+}
+@media (max-width: 361px) {
+  .shortenSection {
+    top: 21%;
+  }
+}
+@media (min-width: 576px) {
+  .shortenSection {
+    top: 24%;
+    margin: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .shortenSection {
+    top: 29%;
+  }
+  .shortenForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+  }
+  .shortenInput {
+    width: 70%;
+    padding: 0;
+    height: 5vh;
+  }
+  .shortenButton {
+    width: 28%;
+    height: 5vh;
+    margin-top: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  .shortenSection {
+    top: 30rem;
+    left: 2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .shortenSection {
+    top: 34rem;
+    left: 4rem;
+  }
+  .shortenInput {
+    height: 7vh;
+  }
+  .shortenButton {
+    height: 7vh;
+  }
 }

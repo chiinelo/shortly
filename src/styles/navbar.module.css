@@ -1,8 +1,15 @@
-.background{
-    background: hsl(257, 27%, 26%);
-    padding: 2rem;
-    border-radius: 10px;
-    margin-top: 2rem;
+/* .entireSection {
+  padding: 1rem;
+} */
+.background {
+  background: hsl(257, 27%, 26%);
+  /* padding: 2rem; */
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.navTexts{
+  color: hsl(257, 7%, 63%);
+  font-weight: bold;
 }
 .signUpButton {
   width: 90%;
@@ -14,3 +21,69 @@
   font: bold 15px sans-serif;
 }
 
+@media (min-width: 576px) {
+  .signUpButton {
+    width: 30%;
+    padding: 3%;
+  }
+}
+
+@media (min-width: 992px) {
+  .background {
+    background: none;
+    /* padding-left: 20rem; */
+    align-items: center;
+  }
+  .background hr {
+    display: none;
+  }
+  .navTexts {
+    color: var(--text);
+  }
+  .signUpButton {
+    width: 10rem;
+    color: #fff;
+    padding: 5%;
+    background-color: hsl(180, 66%, 49%);
+    font: bold 20px sans-serif;
+  }
+  .wholeNav {
+    padding: 0 3%;
+    display: grid;
+    gap: 0;
+  }
+  .firstDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    margin-top: 2rem;
+  }
+  .secondDiv {
+    display: flex;
+    padding-left: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .background {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .firstDiv {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+  }
+  .logo {
+    margin-top: 0;
+  }
+  .secondDiv {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+  }
+}
