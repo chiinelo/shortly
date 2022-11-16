@@ -21,7 +21,9 @@
   width: 18rem;
   padding: 10% 5% 5%;
   border-radius: 10px;
+  /* margin-bottom: 5rem; */
 }
+
 .icons {
   background-color: var(--Dark-Violet);
   border-radius: 50%;
@@ -34,10 +36,10 @@
   height: 80px;
 }
 .bgLine {
-  border: 6px solid var(--buttonBgColor);
-  display: flex;
-  flex-direction: row-reverse;
-  
+  /* border: 6px solid var(--buttonBgColor); */
+  /* display: flex;
+  border-left: 6px solid var(--buttonBgColor);
+  flex-direction: row-reverse; */
 }
 
 @media (min-width: 576px) {
@@ -55,9 +57,8 @@
     width: 23rem;
   }
   .advanceText {
-  padding: 10%;
-
-}
+    padding: 10%;
+  }
 }
 @media (min-width: 992px) {
   .cardSection {
@@ -78,7 +79,7 @@
     position: relative;
     margin-left: 4rem;
   }
-  .brandedCard{
+  .brandedCard {
     position: absolute;
     top: 20%;
     left: 5rem;
@@ -88,22 +89,18 @@
     position: absolute;
     left: 30rem;
     top: 10%;
-
-
   }
   .brandedCard2 {
     margin-top: 19%;
     position: absolute;
     left: 55rem;
     top: 1%;
-
-
   }
   .bgLine {
     border: 6px solid var(--buttonBgColor);
     height: 10px;
     width: 70%;
     margin-top: 25%;
-    /* display: flex; */
+
   }
 }

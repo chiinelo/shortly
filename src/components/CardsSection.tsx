@@ -34,6 +34,7 @@ const CardsSection = () => {
                 </p>
               </div>
             </div>
+            <hr />
             <div
               className={`card ${styles.brandedCard} ${styles.brandedCard1}`}
             >
@@ -52,6 +53,7 @@ const CardsSection = () => {
                 </p>
               </div>
             </div>
+            <hr />
 
             <div
               className={`card ${styles.brandedCard} ${styles.brandedCard2}`}
