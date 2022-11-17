@@ -1,4 +1,3 @@
-import React from "react";
 import BoostPage from "./BoostPage";
 import CardsSection from "./CardsSection";
 import Header from "./Header";
@@ -9,7 +8,6 @@ import "../styles/header.module.css";
 import "../styles/shortenSection.module.css";
 import ShortenSection from "./ShortenSection";
 import Footer from "./Footer";
-// import styles from "../styles/LandingPage.module.css"
 
 const LandingPage = () => {
   return (

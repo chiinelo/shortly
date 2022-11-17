@@ -1,3 +1,6 @@
+.wholeShorten{
+  height: 30vh;
+}
 .shortenSection {
   background: url(../images/bg-shorten-mobile.svg) no-repeat;
   padding: 2rem 0;
@@ -7,7 +10,7 @@
   width: 80%;
   margin: 3rem;
   position: absolute;
-  top: 25%;
+  top: 22%;
   /* right: 15px; */
 }
 .shortenInput {

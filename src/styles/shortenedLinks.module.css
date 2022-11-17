@@ -1,0 +1,36 @@
+.shotenedLinks {
+  background-color: transparent;
+  padding-top: 7rem;
+  position: absolute;
+  left: 15%;
+}
+.shortenedInput {
+  width: 70vw;
+  height: 4vh;
+  padding: 2rem;
+  border: none;
+}
+.shortenedForm {
+  display: flex;
+  justify-content: space-between;
+}
+.shortenedBtn {
+  width: 8vw;
+  padding: 10px;
+  margin-left: -9vw;
+  color: #fff;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  border-radius: 5px;
+}
+
+@media(min-width: 992px) {
+  .shotenedLinks{
+    bottom: 67%;
+  }
+}
+@media(min-width: 1200px) {
+  .shotenedLinks{
+    bottom: 64%;
+  }
+}

@@ -41,6 +41,11 @@
   border-left: 6px solid var(--buttonBgColor);
   flex-direction: row-reverse; */
 }
+@media (max-width: 575.98px) {
+.cardSection{
+  padding-top: 40%;
+}
+}
 
 @media (min-width: 576px) {
   .cardSection {
